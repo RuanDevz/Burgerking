@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: whitesmoke;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.menu a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+main{
+    margin: 150px;
+}
+.titulo-principal{
+    font-weight: bold;
+    
+}
+.titulo-principal-h1{
+
+}
+.paragrafo-principal{
+
+}
+.imagem-principal{
+    position: absolute;
+    left: 55%;
+    top: 24%;
+}
