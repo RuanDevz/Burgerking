@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: "bk";
+    src: url("fontes/Insanibc.ttf")format("truetype");
+}
 body{
     background-color: whitesmoke;
 }
@@ -20,15 +23,15 @@ body{
 main{
     margin: 150px;
 }
-.titulo-principal{
-    
-}
 .titulo-principal-h1{
-    font-weight: bold;
+    font-weight: -500;
     font-size: 40px;
+    font-family: 'bk';
 }
 .paragrafo-principal{
-
+    text-align: justify;
+    font-weight: 500;
+    font-size: 17px;
 }
 .imagem-principal{
     position: absolute;
