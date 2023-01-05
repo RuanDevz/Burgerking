@@ -21,11 +21,11 @@ main{
     margin: 150px;
 }
 .titulo-principal{
-    font-weight: bold;
     
 }
 .titulo-principal-h1{
-
+    font-weight: bold;
+    font-size: 40px;
 }
 .paragrafo-principal{
 
@@ -33,5 +33,45 @@ main{
 .imagem-principal{
     position: absolute;
     left: 55%;
-    top: 24%;
+    top: 27%;
+}
+.botao{
+    background-color: #eead2d;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.botao:hover{
+    background-color: #e0a93b;
+}
+.imagens-inferiores{
+    display: inline-block;
+    width: 110px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 50px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagens-inferiores:hover{
+    border: 1.2px solid #e0a93b;
+    box-shadow: 1px 3px 5px black
+}
+div#imagem1{
+    background-image: url("Imagens/lanche01.png");
+}
+div#imagem2{
+    background-image: url("Imagens/lanche02.png");
+}
+div#imagem3{
+    background-image: url("Imagens/lanche03.png");
+}
+div#imagem4{
+    background-image: url("Imagens/lanche04.png");
+}
+div#imagem5{
+    background-image: url("Imagens/lanche05.png");
+}
+div#imagem6{
+    background-image: url("Imagens/lanche06.png");
 }
