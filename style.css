@@ -78,3 +78,16 @@ div#imagem5{
 div#imagem6{
     background-image: url("Imagens/lanche06.png");
 }
+footer{
+    text-align: center;
+    background-color: #e0a93b;
+    padding: 10px;
+}
+footer a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
