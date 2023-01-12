@@ -57,8 +57,11 @@ main{
     background-size: cover;
 }
 .imagens-inferiores:hover{
-    border: 1.2px solid #e0a93b;
-    box-shadow: 1px 3px 5px black
+    border: 3px solid #e0a93b;
+    box-shadow: 1px 3px 5px black;
+    box-sizing: border-box;
+    transform: translate(-1px, -1px);
+    transition: transform .2s, border .5s;
 }
 div#imagem1{
     background-image: url("Imagens/lanche01.png");
